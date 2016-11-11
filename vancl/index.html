@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>凡客诚品联盟工具</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.min.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container center-block" id="main_wrapper">
+      <h1>凡客诚品联盟工具！</h1>
+      <h3>使用方法：</h3>
+      <p>进入凡客联盟 -> 广告投放 -> 自定义链接 -> 选择文字链接 -> 输入文字与你要买的商品网址 ->
+        预览并复制广告代码 -> 粘贴代码到下方代码框 -> 点击确定按钮 -> 点击本页面生成的超链接 ->
+        把你想要的商品加入购物车 -> 结算后，刷新联盟的实时订单就OK了！
+      </p>
+      <div class="form-group">
+        <label for="ourTuiGuangCode">自定义广告代码：</label>
+        <textarea id="ourTuiGuangCode">
+
+        </textarea>
+      </div>
+      <button id="btnQingKongResult" class="btn btn-success pull-right">清空结果</button>
+      <button id="btnQingKongCode" class="btn btn-success pull-right">清空代码</button>
+      <button id="btnQueDing" class="btn btn-success pull-right">确定</button>
+      <div class="clearfix"></div>
+      <h3>生成超链接，点击购买商品吧：</h3>
+
+      <div id="newLink">
+
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/common.js"></script>
+  </body>
+</html>

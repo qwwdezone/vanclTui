@@ -1,0 +1,23 @@
+#main_wrapper{
+  width:950px;
+}
+#ourTuiGuangCode{
+  display: block;
+  max-width: 100%;
+  width: 950px;
+  height:200px;
+}
+#btnQueDing{
+  width: 200px;
+}
+#newLink a{
+  display:inline-block;
+  padding: 5px 10px;
+  border: 1px solid #dedede;
+  background: #efefef;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+button{
+  margin-left: 10px;
+}
